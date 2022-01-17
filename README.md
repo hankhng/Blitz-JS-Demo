@@ -174,6 +174,11 @@ The Blitz community is warm, safe, diverse, inclusive, and fun! Feel free to rea
 
 ## Notes:
 
+- Monolithic / based on RoR (SSR)
+- No api layer unlike react apps
+- Write a function that runs on a server, inside that function it would talk to a DB /
+- Import that function directly into the FE components and it will magically work
+- Blitz is forked off of Next JS
 - Passport.js adapter for social login
 - Automaticall serialise and deserialise dates, map sets, objects
 - Deploy server or serverless
